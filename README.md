@@ -1,4 +1,4 @@
-# Data Structures & Algorithms III - SCS 2201: String Matching Assignment - Using naive string matching algorithm
+# Data Structures & Algorithms III - SCS 2201: String Matching Assignment - Using Naive String Matching Algorithm
 
 ## Reason to Choose Naive Algorithm 
 
