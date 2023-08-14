@@ -1,6 +1,4 @@
-# Naive_Regex
-
-Data Structures & Algorithms III – SCS 2201 - String Matching Assignment: Using naive string matching algorithm
+# Data Structures & Algorithms III - SCS 2201 : String Matching Assignment - Using naive string matching algorithm
 
 ## Justification
 
