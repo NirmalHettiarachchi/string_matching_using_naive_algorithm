@@ -91,9 +91,9 @@ The program will read these files and find the positions in the text where the p
 ```
 For example, 0 means that the pattern matches position 0 in the text.
 
-## Installation
+## Use the Program
 
-To execute this program, you should have Python installed. Then, navigate to the directory containing the "main.py" file and use the following command to run the program:
+To run this program, you should have Python installed. Then, navigate to the directory containing the "main.py" file and use the following command to run the program (You can also adjust the **NUM_TESTS** variable based on the number of test cases you possess.): 
 
 ```
 python main.py
@@ -101,7 +101,7 @@ python main.py
 
 ## Testing
 
-Test cases are stored in **test_cases** folder. The relevent text for patter**n**.txt is text**n**.txt. And their output will be generated in **out** folder, with the name **patternmatchn.output.txt**
+Test cases are stored in **test_cases** folder. The relevant text for patter**n**.txt is text**n**.txt. And their output will be generated in **out** folder, with the name **patternmatchn.output.txt**
 
 ## Dependencies
 
