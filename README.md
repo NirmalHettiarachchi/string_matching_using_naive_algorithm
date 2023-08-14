@@ -1,8 +1,8 @@
-# Data Structures & Algorithms III - SCS 2201 : String Matching Assignment - Using naive string matching algorithm
+# Data Structures & Algorithms III - SCS 2201: String Matching Assignment - Using naive string matching algorithm
 
-## Justification
+## Reason to Choose Naive Algorithm 
 
-I chose to use the Naive approach for the assignment because it's easy to work with. This let me concentrate on other parts of the task and still get a working solution.
+I chose to use the Naive algorithm for the assignment because it's easy to work with. This let me concentrate on other parts of the task and still get a working solution.
 
 ## Pattern Matching
 
