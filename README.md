@@ -91,7 +91,7 @@ The program will read these files and find the positions in the text where the p
 ```
 For example, 0 means that the pattern matches position 0 in the text.
 
-## Use the Program
+## Run the Program
 
 To run this program, you should have Python installed. Then, navigate to the directory containing the "main.py" file and use the following command to run the program (You can also adjust the **NUM_TESTS** variable based on the number of test cases you possess.): 
 
