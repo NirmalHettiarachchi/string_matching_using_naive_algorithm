@@ -1,5 +1,5 @@
 def main():
-    NUM_TESTS = 3  
+    NUM_TESTS = 4
     
     pattern_files = [f'test_cases/pattern{i}.txt' for i in range(1, NUM_TESTS + 1)]
     text_files = [f'test_cases/text{i}.txt' for i in range(1, NUM_TESTS + 1)]
@@ -15,7 +15,7 @@ def main():
         if ptn_file and txt_file:
             pos_list = get_pattern_positions(ptn_file.read(), txt_file.read())
             write_file(pos_list, output_file)
-            print(f"Completed {pattern_file} and {text_file}.Output saved to {output_file}")
+            print(f"Completed {pattern_file} and {text_file}. Output saved to {output_file}")
         else:
             print(f"Couldn't find required file/s for {pattern_file} and {text_file}!")
 
