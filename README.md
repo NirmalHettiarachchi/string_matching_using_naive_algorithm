@@ -20,13 +20,13 @@ The program writes the matching positions to another file.
 
 To use this program, you need to prepare two files: one for the pattern "pattern1.txt" and another for the text "text1.txt". These files should be placed in the "test_cases" folder. The pattern file should have a single line with the pattern, while the text file should contain a single line with the text. For example:
 
-### pattern1.txt:
+#### pattern1.txt:
 
 ```
 ^.at$
 ```
 
-### text1.txt:
+#### text1.txt:
 
 ```
 cat
@@ -34,7 +34,7 @@ cat
 
 The program will read these files and find the positions in the text where the pattern matches. The output will be written to another file named patterntext1.output, which will be placed in the out folder. The output file will contain one line for each matching position, followed by an empty line. For example:
 
-### patterntext1.output:
+#### patterntext1.output:
 
 ```
 0
