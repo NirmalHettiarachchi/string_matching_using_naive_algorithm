@@ -67,22 +67,22 @@ cat mat hat sit
 
 The program will read these files and find the positions in the text where the pattern matches. The output will be written to another file, which will be placed in the out folder. The output file will contain one line for each matching position, followed by an empty line. For example:
 
-#### patterntext1.output.txt:
+#### patternmatch1.output.txt:
 
 ```
 0
 ```
-#### patterntext2.output.txt:
+#### patternmatch2.output.txt:
 
 ```
 0
 ```
-#### patterntext3.output.txt:
+#### patternmatch3.output.txt:
 
 ```
 6
 ```
-#### patterntext4.output.txt:
+#### patternmatch4.output.txt:
 
 ```
 0
