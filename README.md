@@ -18,7 +18,7 @@ The program writes the matching positions to another file.
 
 ## Usage
 
-To use this program, you need to prepare two files: one for the pattern "pattern1.txt" and another for the text "text1.txt". These files should be placed in the "test_cases" folder. The pattern file should have a single line with the pattern, while the text file should contain a single line with the text. For example:
+To use this program, you need to prepare two files: one for the pattern and another for the text. These files should be placed in the "test_cases" folder. The pattern file should have a single line with the pattern, while the text file should contain a single line with the text. For example:
 
 #### pattern1.txt:
 
@@ -31,16 +31,65 @@ To use this program, you need to prepare two files: one for the pattern "pattern
 ```
 cat
 ```
+#### pattern2.txt:
 
-The program will read these files and find the positions in the text where the pattern matches. The output will be written to another file named patterntext1.output, which will be placed in the out folder. The output file will contain one line for each matching position, followed by an empty line. For example:
+```
+^hell.
+```
 
-#### patterntext1.output:
+#### text2.txt:
+
+```
+hello world hello world
+```
+#### pattern3.txt:
+
+```
+w.r.d$
+```
+
+#### text3.txt:
+
+```
+hello world
+```
+#### pattern4.txt:
+
+```
+.at
+```
+
+#### text4.txt:
+
+```
+cat mat hat sit
+```
+
+The program will read these files and find the positions in the text where the pattern matches. The output will be written to another file, which will be placed in the out folder. The output file will contain one line for each matching position, followed by an empty line. For example:
+
+#### patterntext1.output.txt:
 
 ```
 0
 ```
+#### patterntext2.output.txt:
 
-This means that the pattern matches at positions 0 in the text.
+```
+0
+```
+#### patterntext3.output.txt:
+
+```
+6
+```
+#### patterntext4.output.txt:
+
+```
+0
+4
+8
+```
+For example, 0 means that the pattern matches position 0 in the text.
 
 ## Installation
 
